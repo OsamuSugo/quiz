@@ -82,7 +82,7 @@ const clickHandler = (e) => {
   if(quizIndex < quizLength){
     setupQuiz();
   } else {
-    window.alert("終了！あなたの正解数は" + score + "/" + quizLength + "です！")
+    window.alert("終了！あなたの正解数は" + score + "/" + quizLength + "です！"<br>"https://iamshachiku.com/")
   }
 };
 
